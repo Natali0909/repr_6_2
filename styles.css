@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Map Section */
+.map-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Video Section */
+.video-section {
+    padding: 20px;
+    text-align: center;
+}
+
+iframe {
+    margin: 20px auto;
+}
+
+/* Audio Section */
+.audio-section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Social Media Section */
+.social-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 40px;
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }

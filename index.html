@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Multimedia Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Multimedia and Map Integration</h1>
+    </header>
+
+    <!-- Map Section -->
+    
+
+
+
+
+     <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.9974862411323!2d24.008012147310225!3d49.83638097723846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add790d2c8979%3A0x816b961499e08d49!2z0J3QoyAi0JvRjNCy0ZbQstGB0YzQutCwINC_0L7Qu9GW0YLQtdGF0L3RltC60LAi!5e1!3m2!1suk!2sua!4v1729164818917!5m2!1suk!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d9784.736438986754!2d24.005078906210326!3d49.83269140741657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x473add790d2c8979%3A0x816b961499e08d49!2z0J3QoyAi0JvRjNCy0ZbQstGB0YzQutCwINC_0L7Qu9GW0YLQtdGF0L3RltC60LAiLCDQstGD0LvQuNGG0Y8g0JrQsNGA0L_RltC90YHRjNC60L7Qs9C-LCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!3m2!1d49.836380999999996!2d24.011380499999998!4m5!1s0x473add8266bcedd7%3A0x74026b340a5c8ae2!2z0KXRgNCw0Lwg0KHQstCyLiDQntC70YzQs9C4INGWINCE0LvQuNC30LDQstC10YLQuA!3m2!1d49.8369484!2d24.0047246!5e1!3m2!1suk!2sua!4v1729165454217!5m2!1suk!2sua" width="40%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1729165361501!6m8!1m7!1szhZt5SlOAPPrDOXoT_V7Qw!2m2!1d49.83469701539626!2d24.01447091011488!3f7.295599188536749!4f3.2454885463817504!5f0.7820865974627469" width="40%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+
+
+
+
+
+    <!-- Embedded YouTube Video Section -->
+    <section class="video-section">
+        <h2>Embedded YouTube Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IO07qNw2_dg" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Audio Section -->
+    <section class="audio-section">
+        <h2>Music on the Page</h2>
+        <audio controls>
+            <source src="media/my_music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <h2>Follow Us on Social Media</h2>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+
+    <!-- Weather Widget Section -->
+<div id="SinoptikInformer" style="width:240px;" class="SinoptikInformer type1c1"><div class="siHeader"><div class="siLh"><div class="siMh"><a onmousedown="siClickCount();" class="siLogo" href="https://ua.sinoptik.ua/" target="_blank" rel="nofollow" title="Погода"> </a>Погода <span id="siHeader"></span></div></div></div><div class="siBody"><table><tbody><tr><td class="siCityV" style="width:100%;"><a onmousedown="siClickCount();" href="https://ua.sinoptik.ua/погода-львів" title="Погода у Львові" target="_blank"><div class="siCityName"><span>Львів</span></a></div></tr><tr><td style="width:100%;"><div class="siCityV2"><a onmousedown="siClickCount();" href="https://ua.sinoptik.ua/погода-львів" title="Погода у Львові" target="_blank"><div id="siCont0" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT0"></div><div id="weatherIco0"></div></div><div class="siInf"><p>вологість: <span id="vl0"></span></p><p>тиск: <span id="dav0"></span></p><p>вітер: <span id="wind0"></span></p></div></div></a></div></td></tr></tbody></table><div class="siLinks">Погода на 10 днів від <a href="https://ua.sinoptik.ua/погода-львів/10-днів" title="Погода на 10 днів" target="_blank" onmousedown="siClickCount();">sinoptik.ua</a></div></div><div class="siFooter"><div class="siLf"><div class="siMf"></div></div></div></div><script type="text/javascript" charset="UTF-8" src="//sinoptik.ua/informers_js.php?title=4&amp;wind=3&amp;cities=303014487&amp;lang=ua"></script>
+</body>
+</html>
